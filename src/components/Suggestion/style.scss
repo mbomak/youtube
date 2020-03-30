@@ -1,0 +1,37 @@
+@import 'src/commonStyles/colors';
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+        width: calc(100% - 60px);
+    }
+
+    &__image {
+        width: 60px;
+        height: auto;
+    }
+
+    &__title {
+        padding-left: 5px;
+        font-size: 14px;
+        cursor: default;
+    }
+
+    &__btn {
+        display: block;
+        width: 40px;
+        height: 20px;
+        border: 1px solid $col3;
+        color: $col3;
+        font-size: 13px;
+        border-radius: 2px;
+        background-color: $col1;
+        cursor: pointer;
+    }
+}

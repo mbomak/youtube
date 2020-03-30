@@ -1,0 +1,6 @@
+{
+    "url": "https://www.googleapis.com/youtube/v3/search",
+    "playerSrc": "https://www.youtube.com/iframe_api",
+    "maxResults": "5",
+    "apiKey": "AIzaSyBekpUebAXsSlAmEq7wF25ixERDp_2T3Ao"
+}

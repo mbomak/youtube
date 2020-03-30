@@ -1,0 +1,31 @@
+@import 'src/commonStyles/colors';
+
+.history {
+    grid-area: column-1;
+    margin-right: 15px;
+    text-align: left;
+
+    &__wrap {
+        border: 1px solid $col3;
+        padding: 5px;
+    }
+
+    &__item {
+        display: flex;
+        margin-bottom: 10px;
+        transition: background 0.3s;
+        
+        &:hover {
+            background-color: $col4;
+        }
+    }
+
+    &__title {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    &__btn {
+        cursor: pointer;
+    }
+}

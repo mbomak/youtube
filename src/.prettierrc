@@ -1,0 +1,11 @@
+{
+    "tabWidth": 4,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "bracketSpacing": false,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "arrowParens": "avoid",
+    "endOfLine": "lf",
+    "parser": "typescript"
+}

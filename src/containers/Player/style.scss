@@ -1,0 +1,8 @@
+@import 'src/commonStyles/colors';
+
+.player {
+    grid-area: column-2;
+    height: calc(100vw / 1.777);
+    max-height: 506px;
+    text-align: center;
+}
